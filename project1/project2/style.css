@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 24px;
+    justify-content: space-around;
+}
+#counter{
+    width: 50vw;
+    height: 80vh;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 2px 3px 10px rgb(120, 120, 209);
+    font-size: 48px;
+    font-family: cursive;
+}
+button{
+    padding:10px 20px;
+    border-radius: 20px;
+    background-color:rgb(140, 140, 218);
+    color: white;
+    font-size: 24px;
+    margin-bottom: 50px;
+}

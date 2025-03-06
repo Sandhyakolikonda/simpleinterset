@@ -13,7 +13,15 @@ form.addEventListener("submit", function (event) {
 
   // Calculate simple interest
   const simpleInterest = (principal * rate * time) / 100;
+  // Calculate total amount
+  const totalAmount = principal + simpleInterest;
 
   // Display the result
-  resultElement.textContent = `Simple Interest: ₹${simpleInterest.toFixed(2)}`;
+  resultElement.innerHTML = `
+    Simple Interest: ${simpleInterest.toFixed(2)}<br>
+    Total Amount: ${totalAmount.toFixed(2)}
+  `;
 });
+
+  
+  

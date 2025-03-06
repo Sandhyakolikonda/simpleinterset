@@ -1,0 +1,60 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+
+}
+#san{
+    padding-top: 50px;justify-content: center;
+}
+
+
+
+
+ 
+ body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: linear-gradient( blue, white,green);
+}
+
+ .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1000px;  
+    height: 300px;
+    border-radius: 10%; 
+    background-color: white; 
+    border: 2px solid black; 
+    box-shadow: 20px 3px 40px 50px rgb(174, 174, 191);
+    
+    
+
+
+ }
+ #quote{
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ #author{
+    justify-content: center;
+    align-items: center;
+
+ }
+ #id{
+    justify-content: center;
+    align-items: center;
+
+
+ }
+ 
